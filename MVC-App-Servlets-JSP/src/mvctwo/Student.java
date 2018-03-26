@@ -1,23 +1,23 @@
 package mvctwo;
 
 public class Student {
-	private String firstname;
+	private String firstName;
 	private String lastName;
 	private String email;
 	
 	public Student(String firstname, String lastName, String email) {
 		super();
-		this.firstname = firstname;
+		this.firstName = firstname;
 		this.lastName = lastName;
 		this.email = email;
 	}
 
 	public String getFirstname() {
-		return firstname;
+		return firstName;
 	}
 
 	public void setFirstname(String firstname) {
-		this.firstname = firstname;
+		this.firstName = firstname;
 	}
 
 	public String getLastName() {
